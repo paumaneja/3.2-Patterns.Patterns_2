@@ -7,11 +7,10 @@ import interfaces.PizzaBuilder;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PizzaMargaritaBuilder implements PizzaBuilder {
+public class PizzaMarineraBuilder implements PizzaBuilder {
     private Sizes size;
     private Doughs dough;
     private List<String> toppings;
-
 
 
     @Override
@@ -29,6 +28,8 @@ public class PizzaMargaritaBuilder implements PizzaBuilder {
         this.toppings = new ArrayList<>();
         toppings.add("tomato");
         toppings.add("mozarella");
+        toppings.add("tuna");
+        toppings.add("onion");
     }
 
     @Override
