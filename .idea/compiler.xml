@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Nivell_2.Observer" />
         <module name="Nivell_1.Builder" />
       </profile>
     </annotationProcessing>
